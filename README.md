@@ -12,10 +12,19 @@
 
 1. Git Clone
 2. Make a env
-3. genere the key -> with php artisan key:generate
-4. php artisan migrate
-5. npm run dev
-6. php artisan serve
+3. change your env 
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1 -> your ip
+DB_PORT=5432 
+DB_DATABASE=energeek 
+DB_USERNAME=postgres
+DB_PASSWORD=
+3. install the composer with composer install
+4. genere the key with php artisan key:generate
+5. npm install
+5. php artisan migrate
+6. npm run dev
+7. php artisan serve
 
 
 ## About Laravel
